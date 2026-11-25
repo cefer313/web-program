@@ -43,12 +43,12 @@ Bu fayldakı qaydalara hər söhbətdə əməl et.
 - Sadə brauzer oyunları: tək HTML faylında və ya kiçik layihə kimi; həm siçan, həm toxunuşla idarə olunsun.
 - Məlum oyunların surətini (adı, personajları, dizaynı) yaratma; orijinal oyun hazırla.
 
-## Mövcud layihələr (hələ `iphone` repozitoriyasında)
+## Mövcud layihələr
 
-Bunları istifadəçi istəsə bu repozitoriyaya köçür:
-- **"Baxışını dəyiş"** saytı və tətbiqi — `iphone` repozitoriyasının əsas budağında: `www/`, `android/`, `ios/`, `capacitor.config.json`, `.github/workflows/android.yml`, `pages.yml`.
-- **"Fikir Tutan"** oyunu — `iphone`, budaq `claude/focused-thompson-ma5y47`.
-- **"Şəriət məsələləri"** kitab oxuyucusu (+ iOS workflow) — `iphone`, budaq `claude/friendly-keller-lza1y9`.
+- **`baxisini-deyis/`** — "Baxışını dəyiş" motivasiya saytı (AZ/RU/EN, PWA), Capacitor ilə Android/iOS tətbiqi,
+  `www/game.html` — "Fikir Tutan" oyunu, `www/serieet/` — "Şəriət məsələləri" kitab oxuyucusu.
+  - **Vacib:** kitab mətni nəşriyyatın icazəsi ilə, nəşriyyatın adı qeyd edilmək şərti ilə dərc olunur — `serieet/` səhifəsində və ana səhifədəki kitab bölməsində bu qeyd **silinməməlidir**. Kitab mətni dəyişdirilmir (PDF-dən avtomatik çıxarılır, `tools/verify.py` ilə yoxlanır).
+  - Workflow-lar: `.github/workflows/baxisini-deyis-android.yml`, `-ios.yml`, `-pages.yml` (Pages əl ilə işə salınır).
 
 ## Yeni qaydalar
 
@@ -60,3 +60,4 @@ Bunları istifadəçi istəsə bu repozitoriyaya köçür:
 ### Əlavə olunmuş qaydalar (tarixlə)
 
 - 2026-11-25 — Bu fayl yaradıldı.
+- 2026-11-25 — "Baxışını dəyiş" saytı/tətbiqi, "Fikir Tutan" oyunu və "Şəriət məsələləri" oxuyucusu `iphone`-dan köçürüldü və birləşdirildi.
